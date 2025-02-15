@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech & Business Insights | NextWave Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">NextWave</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tech">Tech</a></li>
+                    <li><a href="#business">Business</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="featured-post">
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="https://via.placeholder.com/800x400" alt="Featured Post">
+                </div>
+                <div class="post-content">
+                    <span class="category tech">Tech</span>
+                    <h2>The Future of Artificial Intelligence in 2024</h2>
+                    <p class="post-excerpt">Explore the latest developments in AI technology and its impact on various industries...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="post-grid">
+            <!-- Business Post -->
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="https://via.placeholder.com/400x250" alt="Business Post">
+                </div>
+                <div class="post-content">
+                    <span class="category business">Business</span>
+                    <h3>Global Market Trends for Startups</h3>
+                    <p class="post-date">March 15, 2024</p>
+                    <p class="post-excerpt">Key insights into the evolving startup ecosystem and investment opportunities...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+
+            <!-- Tech Post -->
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="https://via.placeholder.com/400x250" alt="Tech Post">
+                </div>
+                <div class="post-content">
+                    <span class="category tech">Tech</span>
+                    <h3>Quantum Computing Breakthroughs</h3>
+                    <p class="post-date">March 14, 2024</p>
+                    <p class="post-excerpt">Understanding the latest advancements in quantum computing technology...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 NextWave Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
